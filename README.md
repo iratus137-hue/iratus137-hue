@@ -19,7 +19,7 @@ A two-sided **project funding platform** where founders raise capital **mileston
   &nbsp;
   <a href="https://github.com/iratus137-hue/funder-showcase"><img src="https://img.shields.io/badge/%F0%9F%93%84%20Showcase%20%26%20architecture-funder--showcase-2b3245?style=for-the-badge" alt="Showcase"></a>
   &nbsp;
-  <a href="https://github.com/iratus137-hue/funder-showcase/blob/main/media/funder-demo.mp4"><img src="https://img.shields.io/badge/%E2%96%B6%20Watch-the%20demo-FF4B4B?style=for-the-badge" alt="Watch the demo"></a>
+  <a href="https://iratus137-hue.github.io/funder-showcase/demo.html"><img src="https://img.shields.io/badge/%E2%96%B6%20Watch-the%20demo-FF4B4B?style=for-the-badge" alt="Watch the demo"></a>
 </p>
 
 ---
