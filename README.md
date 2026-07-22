@@ -22,6 +22,24 @@ A two-sided **startup funding platform** where founders raise capital **mileston
 
 ---
 
+## ♟️ Chess
+
+<p align="center">
+  <a href="https://iratus137-hue.github.io/chess/chess.html">
+    <img src="chess-hero.svg" alt="Chess — a full chess game playable in the browser" width="100%">
+  </a>
+</p>
+
+A complete browser chess game — **full rules**, local two-player or **play against the computer**, with move history, undo, and board-flip. Built end to end in a single agentic-workflow prompt.
+
+<p align="center">
+  <a href="https://iratus137-hue.github.io/chess/chess.html"><img src="https://img.shields.io/badge/%E2%96%B6%20Play-in%20browser-E3B341?style=for-the-badge" alt="Play in browser"></a>
+  &nbsp;
+  <a href="https://github.com/iratus137-hue/chess"><img src="https://img.shields.io/badge/%3C%2F%3E%20Code-chess-2b3245?style=for-the-badge" alt="Code"></a>
+</p>
+
+---
+
 ## 🛠️ What I work with
 
 <p align="center">

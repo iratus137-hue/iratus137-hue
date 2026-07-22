@@ -1,0 +1,69 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A0E1A"/>
+      <stop offset="1" stop-color="#171207"/>
+    </linearGradient>
+    <radialGradient id="cglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E3B341" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#E3B341" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#cbg)"/>
+  <circle cx="940" cy="150" r="200" fill="url(#cglow)"/>
+
+  <!-- Wordmark (echoes the game's own title) -->
+  <text x="70" y="126" font-family="Georgia, 'Times New Roman', Times, serif" font-size="80" font-weight="700" fill="#EDE4CE">Chess,</text>
+  <text x="330" y="126" font-family="Georgia, 'Times New Roman', Times, serif" font-size="46" font-style="italic" fill="#E3B341">properly played</text>
+
+  <!-- Description -->
+  <text x="72" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="#BBB09A">A full chess game — complete rules, local two-player or against the computer.</text>
+  <text x="72" y="205" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#8792A8">Built in a single agentic-workflow prompt.</text>
+
+  <!-- Play chip + URL -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <rect x="72" y="230" width="196" height="40" rx="20" fill="#E3B341" fill-opacity="0.14" stroke="#E3B341" stroke-opacity="0.45"/>
+    <text x="170" y="256" text-anchor="middle" font-size="16" font-weight="600" fill="#F0CE77">▶  Play in browser</text>
+    <text x="288" y="256" font-size="15" font-weight="500" fill="#7C88A8">iratus137-hue.github.io/chess</text>
+  </g>
+
+  <!-- Decorative board -->
+  <g>
+    <rect x="806" y="46" width="262" height="212" rx="6" fill="#000000" fill-opacity="0.35"/>
+    <!-- row 0 -->
+    <rect x="812" y="52" width="50" height="50" fill="#E8DDC7"/>
+    <rect x="862" y="52" width="50" height="50" fill="#6F4A2F"/>
+    <rect x="912" y="52" width="50" height="50" fill="#E8DDC7"/>
+    <rect x="962" y="52" width="50" height="50" fill="#6F4A2F"/>
+    <rect x="1012" y="52" width="50" height="50" fill="#E8DDC7"/>
+    <!-- row 1 -->
+    <rect x="812" y="102" width="50" height="50" fill="#6F4A2F"/>
+    <rect x="862" y="102" width="50" height="50" fill="#E8DDC7"/>
+    <rect x="912" y="102" width="50" height="50" fill="#6F4A2F"/>
+    <rect x="962" y="102" width="50" height="50" fill="#E8DDC7"/>
+    <rect x="1012" y="102" width="50" height="50" fill="#6F4A2F"/>
+    <!-- row 2 -->
+    <rect x="812" y="152" width="50" height="50" fill="#E8DDC7"/>
+    <rect x="862" y="152" width="50" height="50" fill="#6F4A2F"/>
+    <rect x="912" y="152" width="50" height="50" fill="#E8DDC7"/>
+    <rect x="962" y="152" width="50" height="50" fill="#6F4A2F"/>
+    <rect x="1012" y="152" width="50" height="50" fill="#E8DDC7"/>
+    <!-- row 3 -->
+    <rect x="812" y="202" width="50" height="50" fill="#6F4A2F"/>
+    <rect x="862" y="202" width="50" height="50" fill="#E8DDC7"/>
+    <rect x="912" y="202" width="50" height="50" fill="#6F4A2F"/>
+    <rect x="962" y="202" width="50" height="50" fill="#E8DDC7"/>
+    <rect x="1012" y="202" width="50" height="50" fill="#6F4A2F"/>
+
+    <!-- Pieces -->
+    <g font-family="'Segoe UI Symbol', 'Apple Symbols', 'Noto Sans Symbols2', 'Noto Sans Symbols', sans-serif" font-size="40" text-anchor="middle">
+      <text x="837" y="90" fill="#23201C">&#9820;</text>
+      <text x="987" y="90" fill="#23201C">&#9822;</text>
+      <text x="887" y="140" fill="#23201C">&#9819;</text>
+      <text x="837" y="190" fill="#23201C">&#9818;</text>
+      <text x="937" y="190" fill="#FBFAF6">&#9817;</text>
+      <text x="1037" y="240" fill="#FBFAF6">&#9816;</text>
+    </g>
+  </g>
+</svg>
