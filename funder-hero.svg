@@ -42,7 +42,7 @@
   <text x="78" y="168" font-size="92" font-weight="800" fill="url(#word)" letter-spacing="-2">Funder</text>
 
   <!-- Tagline -->
-  <text x="82" y="216" font-size="27" font-weight="500" fill="#AEB8D4">Projects funding, milestone by milestone.</text>
+  <text x="82" y="216" font-size="27" font-weight="500" fill="#AEB8D4">Project funding, milestone by milestone.</text>
 
   <!-- Feature chips -->
   <g font-size="16" font-weight="600" fill="#D7DEF2">
