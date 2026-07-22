@@ -42,7 +42,7 @@
   <text x="78" y="168" font-size="92" font-weight="800" fill="url(#word)" letter-spacing="-2">Funder</text>
 
   <!-- Tagline -->
-  <text x="82" y="216" font-size="27" font-weight="500" fill="#AEB8D4">Startup funding, milestone by milestone.</text>
+  <text x="82" y="216" font-size="27" font-weight="500" fill="#AEB8D4">Projects funding, milestone by milestone.</text>
 
   <!-- Feature chips -->
   <g font-size="16" font-weight="600" fill="#D7DEF2">
@@ -60,11 +60,6 @@
     </g>
   </g>
 
-  <!-- Bilingual chip + URL -->
-  <g>
-    <rect x="80" y="302" width="150" height="34" rx="17" fill="#34D9B5" fill-opacity="0.12" stroke="#34D9B5" stroke-opacity="0.35"/>
-    <text x="155" y="324" text-anchor="middle" font-size="15" font-weight="600" fill="#7BE8CE">Bilingual EN / AR</text>
-  </g>
-  <circle cx="250" cy="319" r="3" fill="#5B6480"/>
-  <text x="266" y="324" font-size="15" font-weight="500" fill="#8792AD">funder-delta.vercel.app</text>
+  <!-- URL -->
+  <text x="82" y="322" font-size="15" font-weight="500" fill="#8792AD">funder-delta.vercel.app</text>
 </svg>
