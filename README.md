@@ -24,6 +24,24 @@ A two-sided **project funding platform** where founders raise capital **mileston
 
 ---
 
+## 🧠 Multi-Agent Orchestrator
+
+<p align="center">
+  <a href="https://github.com/iratus137-hue/multi-agent-orchestrator">
+    <img src="orchestrator-hero.svg" alt="Multi-Agent Orchestrator — one prompt, a team of specialists, one clean answer" width="100%">
+  </a>
+</p>
+
+A reusable **Claude skill** that turns one complex request into a coordinated team of specialist AI agents — it decomposes the problem, invents the right specialists, runs them, and merges everything into a single clean answer. A compact demonstration of **prompt engineering and multi-agent orchestration**.
+
+<p align="center">
+  <a href="https://github.com/iratus137-hue/multi-agent-orchestrator"><img src="https://img.shields.io/badge/%F0%9F%A7%A0%20View-the%20skill-34D9B5?style=for-the-badge" alt="View the skill"></a>
+  &nbsp;
+  <a href="https://github.com/iratus137-hue/multi-agent-orchestrator#how-it-works"><img src="https://img.shields.io/badge/%F0%9F%93%96%20How-it%20works-2b3245?style=for-the-badge" alt="How it works"></a>
+</p>
+
+---
+
 ## ♟️ Chess
 
 <p align="center">

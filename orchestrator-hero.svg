@@ -1,0 +1,74 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A0E1A"/>
+      <stop offset="1" stop-color="#141B2E"/>
+    </linearGradient>
+    <linearGradient id="word" x1="80" y1="90" x2="560" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#7DE7FF"/>
+      <stop offset="1" stop-color="#8B7CFF"/>
+    </linearGradient>
+    <radialGradient id="glowc" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#34D9B5" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#34D9B5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowa" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5A623" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#F5A623" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <circle cx="1090" cy="150" r="240" fill="url(#glowc)" opacity="0.5"/>
+
+  <!-- Orchestration graph: one input -> a team of specialists -> one output -->
+  <g stroke="#5A6B94" stroke-opacity="0.55" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <path d="M772 180 C 850 180, 852 100, 926 100"/>
+    <path d="M772 180 C 850 180, 852 162, 926 162"/>
+    <path d="M772 180 C 850 180, 852 224, 926 224"/>
+    <path d="M772 180 C 850 180, 852 286, 926 286"/>
+    <path d="M934 100 C 1012 100, 1030 193, 1104 193"/>
+    <path d="M934 162 C 1012 162, 1030 193, 1104 193"/>
+    <path d="M934 224 C 1012 224, 1030 193, 1104 193"/>
+    <path d="M934 286 C 1012 286, 1030 193, 1104 193"/>
+  </g>
+
+  <!-- Input node -->
+  <circle cx="760" cy="180" r="16" fill="#8B7CFF" fill-opacity="0.18"/>
+  <circle cx="760" cy="180" r="9" fill="#8B7CFF"/>
+
+  <!-- Specialist nodes -->
+  <circle cx="930" cy="100" r="10" fill="#38BDF8"/>
+  <circle cx="930" cy="162" r="10" fill="#34D9B5"/>
+  <circle cx="930" cy="224" r="10" fill="#38BDF8"/>
+  <circle cx="930" cy="286" r="10" fill="#34D9B5"/>
+
+  <!-- Output node -->
+  <circle cx="1108" cy="193" r="22" fill="url(#glowa)"/>
+  <circle cx="1108" cy="193" r="11" fill="#F5A623"/>
+
+  <!-- Wordmark -->
+  <text x="80" y="150" font-size="62" font-weight="800" fill="url(#word)" letter-spacing="-1.5">Multi-Agent</text>
+  <text x="80" y="218" font-size="62" font-weight="800" fill="url(#word)" letter-spacing="-1.5">Orchestrator</text>
+
+  <!-- Tagline -->
+  <text x="82" y="262" font-size="20" font-weight="500" fill="#AEB8D4">One prompt &#8594; a team of AI specialists &#8594; one clean answer.</text>
+
+  <!-- Feature chips -->
+  <g font-size="15" font-weight="600" fill="#D7DEF2">
+    <g>
+      <rect x="80" y="288" width="180" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/>
+      <text x="170" y="312" text-anchor="middle">Task decomposition</text>
+    </g>
+    <g>
+      <rect x="272" y="288" width="162" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/>
+      <text x="353" y="312" text-anchor="middle">Specialist agents</text>
+    </g>
+    <g>
+      <rect x="446" y="288" width="178" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.12"/>
+      <text x="535" y="312" text-anchor="middle">Synthesized output</text>
+    </g>
+  </g>
+</svg>
