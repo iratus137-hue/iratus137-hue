@@ -42,7 +42,7 @@ A reusable **Claude skill** that turns one complex request into a coordinated te
 
 ---
 
-## ♟️ Chess
+## ♟️ Featured project — Chess
 
 <p align="center">
   <a href="https://iratus137-hue.github.io/chess/chess.html">
@@ -50,12 +50,23 @@ A reusable **Claude skill** that turns one complex request into a coordinated te
   </a>
 </p>
 
-A complete browser chess game — **full rules**, local two-player or **play against the computer**, with move history, undo, and board-flip. Built end to end in a single agentic-workflow prompt.
+> ### ⚡ One prompt. Zero hand-written code.
+> The **entire game** — full chess rules, a computer opponent, algebraic move history, undo, and board-flip — was generated from a **single prompt**, using an agentic-workflow skill on **Claude Sonnet**. No game loop written by hand, no debugging round-trips: one well-engineered prompt in, one working product out.
+
+<p align="center">
+  <a href="https://iratus137-hue.github.io/chess/chess.html">
+    <img src="chess-screenshot.jpeg" alt="The chess game in play — the Italian Game opening, with live algebraic move history" width="90%">
+  </a>
+</p>
+
+A complete browser chess game — **full rules**, local two-player or **play against the computer**, with algebraic move history, undo, and board-flip. Play it live in your browser, or read the source.
 
 <p align="center">
   <a href="https://iratus137-hue.github.io/chess/chess.html"><img src="https://img.shields.io/badge/%E2%96%B6%20Play-in%20browser-E3B341?style=for-the-badge" alt="Play in browser"></a>
   &nbsp;
   <a href="https://github.com/iratus137-hue/chess"><img src="https://img.shields.io/badge/%3C%2F%3E%20Code-chess-2b3245?style=for-the-badge" alt="Code"></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Built%20with-1%20prompt-8B7CFF?style=for-the-badge" alt="Built with one prompt">
 </p>
 
 ---
