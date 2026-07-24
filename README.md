@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Iratus 👋</h1>
 
-<p align="center">I build full-stack web applications — end to end, from database and auth to real-time UI and production deployment.</p>
+<p align="center">I am an AI-Native Builder and Vibe Coder. I orchestrate agentic workflows to ship production-grade products at the speed of thought.</p>
 
 <br>
 
