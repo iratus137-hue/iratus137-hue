@@ -1,91 +1,58 @@
-<h1 align="center">Hi, I'm Iratus 👋</h1>
+# Hi, I'm Iratus 👋
 
-<p align="center">I am an AI-Native Builder and Vibe Coder. I orchestrate agentic workflows to ship production-grade products at the speed of thought.</p>
+I'm an **AI-Native Product Engineer**. I ship products by orchestrating LLM agents — Claude Code,
+MCP tooling, and custom multi-agent workflows — rather than writing every line by hand, and I work
+the whole arc myself: spec, architecture, build, deploy.
 
-<br>
-
-## 🚀 Featured project — Funder
-
-<p align="center">
-  <a href="https://funder-delta.vercel.app">
-    <img src="funder-hero.svg" alt="Funder — project funding, milestone by milestone" width="100%">
-  </a>
-</p>
-
-A two-sided **project funding platform** where founders raise capital **milestone by milestone** and investors release funds from escrow as each milestone is delivered and approved. Full-stack, fully bilingual (English / Arabic with RTL), and deployed to production — with real-time deal rooms, native in-app contract e-signing, and a security-first Postgres data layer.
-
-<p align="center">
-  <a href="https://funder-delta.vercel.app"><img src="https://img.shields.io/badge/%E2%96%B6%20Live%20demo-funder--delta.vercel.app-8B7CFF?style=for-the-badge" alt="Live demo"></a>
-  &nbsp;
-  <a href="https://github.com/iratus137-hue/funder-showcase"><img src="https://img.shields.io/badge/%F0%9F%93%84%20Showcase%20%26%20architecture-funder--showcase-2b3245?style=for-the-badge" alt="Showcase"></a>
-  &nbsp;
-  <a href="https://iratus137-hue.github.io/funder-showcase/demo.html"><img src="https://img.shields.io/badge/%E2%96%B6%20Watch-the%20demo-FF4B4B?style=for-the-badge" alt="Watch the demo"></a>
-</p>
+Remote from Iraq (UTC+3) · available for contract work · [iratus137@gmail.com](mailto:iratus137@gmail.com)
 
 ---
+
+## 🚀 Funder — milestone-based funding marketplace
+
+A two-sided marketplace where founders raise capital in milestone tranches and investors release
+funds against verified delivery instead of one up-front cheque.
+
+- **Next.js 16 · React 19 · TypeScript · Tailwind 4 · Supabase · Vercel**
+- Postgres **row-level security on every table**, plus column-guard triggers that block privilege
+  escalation and field tampering
+- Milestone escrow built on **Stripe Connect** — real-money settlement is deliberately gated
+  pending regulatory licensing
+- Native in-app contract e-signing via `pdf-lib` with SHA-256 audit hashes, no third-party
+  signature vendor
+- Real-time deal rooms (Supabase Realtime + Daily.co video) and a full English/Arabic RTL interface
+
+[Live demo](https://funder-delta.vercel.app) · [Architecture showcase](https://github.com/iratus137-hue/funder-showcase) · [Video walkthrough](https://iratus137-hue.github.io/funder-showcase/demo.html)
 
 ## 🧠 Multi-Agent Orchestrator
 
-<p align="center">
-  <a href="https://github.com/iratus137-hue/multi-agent-orchestrator">
-    <img src="orchestrator-hero.svg" alt="Multi-Agent Orchestrator — one prompt, a team of specialists, one clean answer" width="100%">
-  </a>
-</p>
+A reusable Claude Code skill that turns one complex request into a coordinated team of specialists:
+it decomposes the task, assigns agents, briefs each with its own constraint sheet, then runs an
+automated compliance review before anything ships — because unreviewed generated output isn't
+finished work.
 
-A reusable **Claude skill** that turns one complex request into a coordinated team of specialist AI agents — it decomposes the problem, invents the right specialists, runs them, and merges everything into a single clean answer. A compact demonstration of **prompt engineering and multi-agent orchestration**.
+[View the skill](https://github.com/iratus137-hue/multi-agent-orchestrator) · [How it works](https://github.com/iratus137-hue/multi-agent-orchestrator#how-it-works)
 
-<p align="center">
-  <a href="https://github.com/iratus137-hue/multi-agent-orchestrator"><img src="https://img.shields.io/badge/%F0%9F%A7%A0%20View-the%20skill-34D9B5?style=for-the-badge" alt="View the skill"></a>
-  &nbsp;
-  <a href="https://github.com/iratus137-hue/multi-agent-orchestrator#how-it-works"><img src="https://img.shields.io/badge/%F0%9F%93%96%20How-it%20works-2b3245?style=for-the-badge" alt="How it works"></a>
-</p>
+## ♟️ Chess
 
----
+A full browser chess game — complete rules, computer opponent, algebraic move history, undo, and
+board flip — built end-to-end with my own multi-agent orchestration skill: agent decomposition,
+specialist assignment, and compliance review. HTML/JS, no dependencies.
 
-## ♟️ Featured project — Chess
-
-<p align="center">
-  <a href="https://iratus137-hue.github.io/chess/chess.html">
-    <img src="chess-hero.svg" alt="Chess — a full chess game playable in the browser" width="100%">
-  </a>
-</p>
-
-> ### ⚡ One prompt. Zero hand-written code.
-> The **entire game** — full chess rules, a computer opponent, algebraic move history, undo, and board-flip — was generated from a **single prompt**, using an agentic-workflow skill on **Claude Sonnet**. No game loop written by hand, no debugging round-trips: one well-engineered prompt in, one working product out.
-
-<p align="center">
-  <a href="https://iratus137-hue.github.io/chess/chess.html">
-    <img src="chess-screenshot.jpeg" alt="The chess game in play — the Italian Game opening, with live algebraic move history" width="90%">
-  </a>
-</p>
-
-A complete browser chess game — **full rules**, local two-player or **play against the computer**, with algebraic move history, undo, and board-flip. Play it live in your browser, or read the source.
-
-<p align="center">
-  <a href="https://iratus137-hue.github.io/chess/chess.html"><img src="https://img.shields.io/badge/%E2%96%B6%20Play-in%20browser-E3B341?style=for-the-badge" alt="Play in browser"></a>
-  &nbsp;
-  <a href="https://github.com/iratus137-hue/chess"><img src="https://img.shields.io/badge/%3C%2F%3E%20Code-chess-2b3245?style=for-the-badge" alt="Code"></a>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Built%20with-1%20prompt-8B7CFF?style=for-the-badge" alt="Built with one prompt">
-</p>
+[Play in browser](https://iratus137-hue.github.io/chess/chess.html) · [Source](https://github.com/iratus137-hue/chess)
 
 ---
 
 ## 🛠️ What I work with
 
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white" alt="Supabase">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white" alt="Vercel">
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" alt="Git">
-</p>
+**AI & agentic** — Claude Code · MCP servers & tool integration · multi-agent orchestration ·
+agent skill authoring · prompt & context engineering · agentic automation (n8n)
+
+**Web & product** — TypeScript · JavaScript · React 19 · Next.js 16 · Tailwind CSS 4 · Node.js ·
+Python · Supabase (Postgres, Auth, Storage) · Postgres RLS · Stripe Connect · Vercel ·
+responsive & bilingual RTL interfaces
 
 ---
 
-<p align="center"><sub>💬 Want a walkthrough of any project? Open an issue on a repo, or reach out on GitHub.</sub></p>
+💬 Want a walkthrough of any project? Email me at
+[iratus137@gmail.com](mailto:iratus137@gmail.com) or open an issue on a repo.
